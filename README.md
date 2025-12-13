@@ -26,6 +26,12 @@ Let's Play Volleyball is a mobile app designed to help Taiwanese volleyball love
 - Check the schedule view to find and join games with available players.
 - Review match history and adjust settings like location and cost from the detailed match pages.
 
+## Tech Stack (Backend)
+- Python (Django) – Core backend framework for user management, event scheduling, and business logic
+- Django REST Framework – RESTful APIs for mobile app communication
+- PostgreSQL – Persistent storage for users, events, teams, and match history
+- Celery + Redis – Background tasks and asynchronous job handling (e.g., notifications, reminders)
+  
 ## License
 [MIT](https://choosealicense.com/licenses/mit/) 
 
